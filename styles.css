@@ -1,1 +1,35 @@
+html,
+body {
+	margin: 0;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 24px;
+	line-height: 1.5; 
+	margin: 0 auto;
+	padding: 0;
+	max-width: 1280px;
+}
 
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;	
+}
+
+img {
+	max-width: 100%;
+}
+
+.post-title {
+	font-size: 3rem;
+	line-height: 1.1;
+	border-bottom: 8px solid black;
+}
+
+.post-body {
+	width: 60%;
+	margin: 0 auto;
+}
+
+
+#post > .post-image {
+	display: block;
+	margin: 0 auto;
+}
